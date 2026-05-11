@@ -49,8 +49,16 @@ header{
 .itens > li{
     border: 2px solid bisque;
     padding: 10px; 
-    border-radius: 50px 25px;
+    border-radius: 50px 25px; 
+    font-size: 25px;
+}  
+
+.itens > li:hover{
+    background-color: #2748A8; 
+    color: white;
 }
+
+
 
 .banner{
     width: 99%; 
@@ -127,7 +135,9 @@ header{
 
 
 .texto_registro{
-    margin: px;
+    margin: 2vh; 
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif;
 }
 
 }  
@@ -150,17 +160,27 @@ header{
 
 .planetas{ 
     border: 5px solid var(--cor-secundaria);
-    margin: 5vh;
+    margin: 30px;
     display: flex; 
     flex-wrap: wrap; 
     align-content: center;
     justify-content: space-evenly; 
-} 
+}  
+
+
+.planetas > h2{ 
+    margin: auto 40vw; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+
+}
+
+
 
 .planetas > div > img { 
     margin: 10px;
-    width: 30vw;
-    height: 30vh; 
+    width: 25vw;
+    height: 25vh; 
     border: solid black; 
     align-items: center; 
     border-radius: 100px 50px;
@@ -169,10 +189,10 @@ header{
 .planetas > div > p{
     margin: 10px;
     text-align: center; 
-    font-size: 5vh; 
+    font-size: 3vh; 
     border: 5px solid var(--cor-principal); 
     margin: 0 10vw; 
-    margin-bottom: 2vh; 
+    margin-bottom: 5vh; 
     border-radius: 100px 50px;
 } 
 
